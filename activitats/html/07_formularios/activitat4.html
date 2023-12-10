@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Buscar Cámaras de Fotos</h1>
+
+    <form action="/procesar_busqueda" method="get">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca">
+
+        <br>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo">
+
+        <br>
+
+        <label for="megapixeles">Megapíxeles:</label>
+        <input type="number" id="megapixeles" name="megapixeles" min="1">
+
+        <br>
+
+        <label for="precio">Precio (en USD):</label>
+        <input type="number" id="precio" name="precio" min="0">
+
+        <br>
+
+        <input type="submit" value="Buscar">
+    </form>
+
+</body>
+</html>
