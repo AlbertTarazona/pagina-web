@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <details>
+        <summary>Factura</summary>
+        <ul>
+            <li>Vino blanco: 12€</li>
+            <li>Aceitunas: 3€</li>
+        </ul>
+        <p>Total: 15€</p>
+    </details>    
+   
+   
+   
+   
+   
+    <dialog open>¡Has sido registrado con éxito!</dialog>
+    
+
+
+
+
+    <label>¿Cual es tu personaje favorito de Harry Potter?:
+        <input list="personajes-harry-potter" type="text" name="personaje-favorito">
+    </label>
+    
+    <datalist id="personajes-harry-potter">
+        <option value="Harry Potter"></option>
+        <option value="Ron Weasley"></option>
+        <option value="Hermione Granger"></option>
+        <option value="Lord Voldemort"></option>
+        <option value="Albus Dumbledore"></option>
+    </datalist>
+    
+
+    <p>
+    <progress max="100" value="30">30%</progress>
+    </p>
+    
+    
+    
+    <p><label>
+        Temperatura
+        <meter
+            id="temperature"
+            min="-275"
+            max="100"
+            value="28"
+        >
+            28
+        </meter>
+    </label>
+    </p>
+
+
+    <p><label>
+        Batería
+        <meter
+            id="battery"
+            min="0"
+            max="100"
+            low="60"
+            high="80"
+            optimum="85"
+            value="65"
+        >
+            Entre 60 y 80
+        </meter>
+    </label>
+    </p>
+</body>
+</html>
