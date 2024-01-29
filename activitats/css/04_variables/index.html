@@ -6,29 +6,34 @@
     <title>Document</title>
 </head>
 <style>
-    :root {
-    --color-amarillo: #ECD078;
-    --color-naranja: #D95B43;
-    --color-rojo: #C02942;
-    --fuente-titulo: "Arial";
-}
-
 h1 {
     color: #D95B43;
-    font-family: 'Arial';
+    border: 2px solid #D95B43;
+    display: inline;
 }
 
-h1 {
-    --color-naranja: #D95B43;
-    color: var(--color-naranja);
-    border: 2px solid var(--color-naranja);
+.cuadrado { 
+
+    --lado: 10rem;
+    width: var(--lado);
+    height: var(--lado);
+    background-color: #D95B43;
+    display: inline;
+}
+
+.titulo {
+    padding: var(--separacion);
+    text-transform: uppercase;
+    color: #43d950;
+    display: inline;
 }
 
 
 </style>
 <body>
-    <h1>Hola</h1>
-    <p>aaaaaaaaaaaaaaaaa</p>
-    <h2>SJKgaSKGNDSLN</h2>
+
+<h1 class="titulo" style="--separacion: 1rem">Hola</h1>
+<p class="cuadrado">AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+
 </body>
 </html>
