@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .comments-container {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #000000;
+        }
+
+        .comment .author {
+            font-weight: bold;
+            color: #9834db;
+        }
+
+        .comment .content {
+            margin-top: 5px;
+        }
+
+        .comment-form {
+            margin-top: 20px;
+        }
+
+        .comment-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .comment-form input[type="submit"] {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .comment-form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="comments-container">
+        <div class="comment">
+            <div class="author">Usuario1</div>
+            <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+
+        <div class="comment">
+            <div class="author">Usuario2</div>
+            <div class="content">Nulla facilisi. Proin nec est eget metus cursus accumsan.</div>
+        </div>
+
+        <div class="comment-form">
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Escribe tu comentario"></textarea>
+                <input type="submit" value="Publicar comentario">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
