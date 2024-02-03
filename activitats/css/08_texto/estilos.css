@@ -4,3 +4,9 @@
     font-weight: bold;
     font-style: bold;
 }
+@font-face{
+    font-family: 'Poppins';
+    src: url(fuentes/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
