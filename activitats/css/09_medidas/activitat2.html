@@ -2,63 +2,46 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavadora Dual</title>
+    <title>Document</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 20px;
         }
-        h1 {
-            font-size: 24px;
-            color: #333;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-        }
-        .product-info {
-            margin-top: 20px;
-        }
-        .price {
-            font-size: 28px;
-            color: #e44d26;
-            margin-top: 10px;
-        }
+
         .colored-paragraph {
-            background-color: #f0f0f0;
+            background-color: #cbe920;
             padding: 10px;
             margin-top: 10px;
             width: 80%;
         }
-
-
+        .colored-paragraph:nth-child(1) {
+            width: 65%;
+        }
+        .colored-paragraph:nth-child(2) {
+            width: 70%;
+        }
         .colored-paragraph:nth-child(3) {
             width: 75%;
         }
         .colored-paragraph:nth-child(4) {
-            width: 80%; /* Ajustado a 80% para ser más largo */
+            width: 80%; 
         }
         .colored-paragraph:nth-child(5) {
-            width: 90%; /* Ajustado a 90% para ser aún más largo */
+            width: 85%; 
+        }
+        .colored-paragraph:nth-child(6) {
+            width: 90%;
         }
     </style>
 </head>
 <body>
-    <h1>Lavadora Dual</h1>
-
-    <div class="product-info">
-        <img src="ruta_de_la_imagen.jpg" alt="Lavadora Dual">
-
-        <p><strong>Modelo:</strong> NTW4516FW</p>
-        <p><strong>SKU:</strong> 5369600</p>
-
-        <div class="price">494,99 euros</div>
-    </div>
-
-    <div class="colored-paragraph">Párrafo 1</div>
-    <div class="colored-paragraph">Párrafo 2</div>
-    <div class="colored-paragraph">Párrafo 3</div>
+    <p class="colored-paragraph">Párrafo 1 65%</p>
+    <p class="colored-paragraph">Párrafo 2 70%</p>
+    <p class="colored-paragraph">Párrafo 3 75%</p>
+    <p class="colored-paragraph">Párrafo 4 80%</p>
+    <p class="colored-paragraph">Párrafo 5 85%</p>
+    <p class="colored-paragraph">Párrafo 6 90%</p>
 </body>
 </html>
