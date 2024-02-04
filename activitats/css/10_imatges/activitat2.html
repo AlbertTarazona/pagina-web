@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Contacto</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        main {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 100vh;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-top: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        .rectangulo {
+            width: calc(2 * var(--altura-rectangulo)); 
+            height: var(--altura-rectangulo);
+            background-color: #34db34;
+        }
+        section{
+            background-color: aqua;
+        }
+     
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="F_eZk-4XYAAf2Jd.png" alt="Mi Foto">
+            <nav>
+                <ul>
+                    <li class="rectangulo"><a href="Currículum Albert Tarazona .pdf">Currículum Vitae</a></li>
+                    <li class="rectangulo"><a href="https://es.linkedin.com/">LinkedIn</a></li>
+                    <li class="rectangulo"><a href="https://mail.google.com/mail/u/0/#inbox">Correo Electrónico</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+</body>
+</html>
