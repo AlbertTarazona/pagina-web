@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .destacado {
+            background-color: rgba(255, 255, 0, 0.5); 
+            padding: 2px; 
+            border-radius: 4px; 
+            display: inline-block;
+        }
+
+        .destacado::before,
+        .destacado::after {
+            content: '\00a0';
+            display: inline-block;
+            width: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Sit praesentium necessitatibus ad enim odit in velit consequatur aut doloribus voluptatibus eos eius aspernatur ut nesciunt placeat et quasi corrupti. <strong class="destacado">Aut doloremque</strong> blanditiis et dolore autem non vitae facere et quis fuga. Hic nemo dignissimos ab consequatur laborum est dicta dolor.
+    </p>
+</body>
+</html>
