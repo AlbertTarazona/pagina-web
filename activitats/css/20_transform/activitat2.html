@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      height: 150px;
+      background-color: #219c63;
+      border: 1px solid #b92c2c;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(41, 214, 113, 0.3);
+      transition: transform 0.5s ease;
+    }
+
+    .modal:hover {
+      transform: translate(-50%, -50%) scale(2);
+    }
+
+    .boton {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #ff9900;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.5s ease;  
+    }
+
+  </style>
+</head>
+<body>
+
+<button class="boton" onclick="mostrarModal()">Mostrar Modal</button>
+
+<div id="miModal" class="modal">
+ <p> PON EL RATON</p>
+</div>
+
+<script>
+  function mostrarModal() {
+    var modal = document.getElementById('miModal');
+    modal.style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
