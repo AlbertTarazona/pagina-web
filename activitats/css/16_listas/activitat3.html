@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú de navegación con cambio de estado y fondo azul</title>
+<style>
+    body{
+        text-align: center;
+    }
+    .contenedor {
+        background-color: rgb(102, 125, 160); 
+        padding: 10px 20px; 
+        max-width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        border: 1px solid rgb(0, 0, 0); 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .enlace {
+        color: white; 
+        text-decoration: none; 
+        transition: color 0.3s; 
+    }
+
+    .enlace:hover {
+        color: rgb(94, 255, 0); 
+    }
+</style>
+</head>
+<body>
+    <div class="contenedor">
+        <a href="#" class="enlace">Productos</a>
+    </div>
+    <div class="contenedor">
+        <a href="#" class="enlace">Carrito</a>
+    </div>
+    <div class="contenedor">
+        <a href="#" class="enlace">Perfil</a>
+    </div>
+</body>
+</html>
