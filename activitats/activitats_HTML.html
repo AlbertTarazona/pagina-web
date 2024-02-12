@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(imatge.png);
+            
+        }
+        .container {
+            background-color: #333;
+            color: white;
+            padding: 10px 0; 
+            text-align: center;
+            margin-top: 20px; 
+            margin-bottom: 20px;
+            
+        }
+        .container2 {
+            background-color: #929292;
+            color: white;
+            padding: 1px 40%; 
+            text-align: start;
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+            min-width: 300px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: inherit;
+            justify-content: space-between;
+
+
+        }
+        .txt{
+            margin: 0px 15px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        a {
+            color: rgb(143, 63, 63);
+            text-decoration: none;
+            padding: 0 10px;
+            
+        }
+        a:hover {
+            background-color: #02e6ee;
+        }
+    </style>
 </head>
 <body>
-    <h1>Activitats HTML</h1>
+    <header>
+    <div class="link-section"></div>
+    <h1 class="container">Activitats HTML</h1>
+        <a href="../index.html">Index</a>
+        <a href="activitats_HTML.html">Actividades HTML</a>
+        <a href="activitats_CSS.html">Actividades CSS</a>
+        </div>
+    </header>
     <h5>Albert Tarazona</h5>
+    <div class="container2">
+        <div class="txt">
     <h3>Formato</h3>
         <ul>
             <li><a href="html/02_formato/activitat1.html"target="_blank">Activitat 1</a></li>
@@ -45,6 +103,9 @@
             <li><a href="html/06_tablas/activitat2.html"target="_blank">Activitat 2</a></li>
             <li><a href="html/06_tablas/activitat3.html"target="_blank">Activitat 3</a></li>
         </ul>
+    
+    </div>
+        <div class="txt">
     <h3>Formularios</h3>
         <ul>
             <li><a href="html/07_formularios/activitat1.html"target="_blank">Activitat 1</a></li>
@@ -73,5 +134,7 @@
             <li><a href="html/12_accesibilidad/activitat1.html"target="_blank">Activitat 1</a></li>
             <li><a href="html/12_accesibilidad/activitat2.html"target="_blank">Activitat 2</a></li>
         </ul>
+    </div>
+</div>
     </body>
 </html>
